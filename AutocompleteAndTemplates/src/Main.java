@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
+
+
     public static int cariFPB(int a, int b) {
         while (b != 0) {
             int temp = b;
@@ -10,10 +12,15 @@ public class Main {
         return a;
     }
 
+    /**method operasi KPK
+     * @param a
+     * @param b
+     * */
     public static int cariKPK(int a, int b) {
         return (a * b) / cariFPB(a, b);
     }
 
+    /**Method Main*/
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
